@@ -1,0 +1,25 @@
+{
+  "name": "job-processing",
+  "version": "1.0.0",
+  "description": "jobs management",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@localhost:4000/job-processing"
+  },
+  "keywords": [
+    "jobs"
+  ],
+  "author": "Suraj Tripathi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bunyan": "^1.8.5",
+    "express": "^4.14.0",
+    "kue": "^0.11.5",
+    "request": "^2.78.0"
+  }
+}
